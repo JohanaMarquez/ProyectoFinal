@@ -1,0 +1,8 @@
+.piedepagina {
+    background-color: black;
+    position:unset;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 0.5rem;
+ }

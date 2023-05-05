@@ -1,0 +1,39 @@
+.bg-navbar{
+    background-color: #050505;
+}
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #e01552;
+}
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+.fa-brands.fa-instagram.fa-2x.text-white:hover {
+    --bs-text-opacity: 1;
+    color: #a50d33 !important;
+}
+
+.fa-brands.fa-github.fa-2x.text-white:hover {
+    --bs-text-opacity: 1;
+    color:#c9511a !important;
+}
+
+.fa-brands.fa-facebook.fa-2x.text-white:hover {
+    --bs-text-opacity: 1;
+    color:#1e12c2 !important;
+}
+.titulo {
+    background-color: #503939;
+}
+.login {
+    height: 53vh;
+}
+.formulario-login {
+    margin-top: 8%;
+}
+.perfil {
+    margin-left: 30%;
+}

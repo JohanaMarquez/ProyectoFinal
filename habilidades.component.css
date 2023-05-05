@@ -1,0 +1,42 @@
+.HTML{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #92909b;
+    stroke-width: 20;
+    stroke-dasharray: var(--porcentaje) 100;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    stroke-linecap: round;
+    
+}
+.porcentaje {
+    stroke-dashoffset: calc(400 - (400 * 40)/100);
+    stroke: rgb(111, 15, 131);
+    
+}
+.porcentaje1 {
+    --porcentaje: 70;
+}
+.porcentaje2 {
+    --porcentaje: 50;
+}
+.GRIS {
+    stroke-dasharray: 440 100;
+    stroke-dashoffset: 440 100;
+}
+.porcentaje3 {
+    --porcentaje: 100;
+}
+.porcentaje4 {
+    --porcentaje: 90;
+}
+.porcentaje5 {
+    --porcentaje: 85;
+}
+.titulo10 {
+    background-color: #503939;
+}
+.habilidad {
+    padding-top: 2rem;
+}
