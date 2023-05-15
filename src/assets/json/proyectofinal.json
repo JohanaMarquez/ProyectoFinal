@@ -1,0 +1,116 @@
+{
+    "nombre": "Johana Marquez",
+    "carrera": "Desarrolladora Full Stack Jr",
+    "fotodeperfil": "../../../assets/images/meme foto.jpg",
+    "fotobanner": "../../../assets/images/banner3.jpg",
+    "presentacion": "Hola, mi nombre es Johana Marquez",
+    "redes":[
+    {
+        "id": 0,
+        "icono": "fa-facebook"
+    },
+    {
+        "id": 1,
+        "icono": "fa-instagram"
+    },
+    {
+        "id": 2,
+        "icono": "fa-github"
+    }
+],
+    "login": "fa-solid fa-right-to-bracket fa-2x text-white",
+    "formacion academica":[
+        {
+            "id": 0,
+            "institucion": "Esapa",
+            "orientacion": "En el presente año me encuentro cursando el tercer semestre de la Tecnicatura en Farmacia.",
+            "img": "../../../assets/images/logo esapa.jpg"
+        },
+        {
+            "id": 1,
+            "institucion": "La Bancaria",
+            "orientacion": "Culminé los cursos de computación y dactilografía",
+            "img": "../../../assets/images/logo la bancaria.jpg"
+        },
+        {
+         "id": 2,
+         "institucion": "Francisco Correas",
+         "orientacion": "Egresé con el título de humanidades con orientación en educación ",
+         "img": "../../../assets/images/logo escuela francisco correas.jpg"
+     }
+    ],
+
+    "experiencia":[
+        {
+            "id": 0,
+            "lugar": "Anastasio El pollo",
+            "imagen": "../../../assets/images/logo anastasio el pollo.jpg",
+            "tareas": "Actualmente mi puesto consiste en recepción y atención al público."
+        },
+        {
+            "id": 1,
+            "lugar": "Grido",
+            "imagen": "../../../assets/images/logo grido.png",
+            "tareas": "Me desempeñé como cajera y encargada de control de stock en el período comprendido entre los años 2017 hasta 2022. "
+        }
+    ],
+
+    "habilidades":[
+        {
+            "id": 0,
+            "nombre": "HTML",
+            "percent": 75,
+            "outerStrokeColor": "#125E61"
+        },
+        {
+            "id": 1,
+            "nombre": "CSS",
+            "percent": 70,
+            "outerStrokeColor": "#8846F4"
+        },
+        {
+            "id": 2,
+            "nombre": "Angular",
+            "percent": 50,
+            "outerStrokeColor": "#10C4E0"
+        }
+    ],
+    "habilidades blandas":[
+        {
+            "id": 0,
+            "nombre": "Responsabilidad",
+            "percent": 100,
+            "outerStrokeColor": "#125E61"
+        },
+        {
+            "id": 1,
+            "nombre": "Trabajo en equipo",
+            "percent": 90,
+            "outerStrokeColor": "#8846F4"
+        },
+        {
+            "id": 2,
+            "nombre": "Trabajo en equipo",
+            "percent": 95,
+            "outerStrokeColor": "#10C4E0"
+        },
+        {
+         "id": 3,
+         "nombre": "Adaptabilidad",
+         "percent": 85,
+         "outerStrokeColor": "#10C4E0"
+     }
+    ],
+    "proyectos":[
+        {
+            "id": 0,
+            "imagenproyecto": "../../../assets/images/imagen portfolio.jpg",
+            "descripcion": "El proyecto tiene como finalidad la creación de un portfolio web que permitirá la inconporación al mundo laboral, poniendo enfásis en las habilidades adquirida en el proyecto Argentina Programa 4.0."
+        },
+        {
+         "id": 1,
+         "imagenproyecto": "../../../assets/images/imagengemma.jpg",
+         "descripcion": "El proyecto tiene como finalidad la creación de una página digital de mi emprendimiento para fomentar la venta nacional a través de la web."
+     }
+    ]
+}

@@ -1,0 +1,53 @@
+.bg-navbar{
+    background-color: #050505;
+}
+.nav-link{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #e01552;
+}
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+.admin {
+    text-decoration: none;
+    color: #050505;
+}
+nav.vertical {
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem; 
+}
+li.vertical {
+    display: black;
+    margin-left: 2rem;
+    writing-mode: vertical;
+    padding: 1.5rem 0;
+    font-size: 1.25rem;
+}
+.dibujo {
+    text-decoration: none;
+    color: black;
+}
+.admin {
+    text-decoration: none;
+    color: #050505;
+}
+nav.vertical {
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem; 
+}
+li.vertical {
+    display: black;
+    margin-left: 2rem;
+    writing-mode: vertical;
+    padding: 1.5rem 0;
+    font-size: 1.25rem;
+}
+.dibujo {
+    text-decoration: none;
+    color: black;
+}
