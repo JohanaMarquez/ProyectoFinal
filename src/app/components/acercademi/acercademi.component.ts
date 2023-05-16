@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { PortfolioService } from 'src/app/servicio/portfolio.service';
 
 @Component({
   selector: 'app-acercademi',
@@ -7,11 +6,5 @@ import { PortfolioService } from 'src/app/servicio/portfolio.service';
   styleUrls: ['./acercademi.component.css']
 })
 export class AcercademiComponent {
-
-  constructor(private datosPortfolio:PortfolioService) {}
-
-  ngOnInit(): void {
-    this.datosPortfolio.obtenerDatos(); 
-  }
-
+  constructor() {}
 }

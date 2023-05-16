@@ -24,6 +24,9 @@ import { AdmexperienciaComponent } from './components/administracion/admexperien
 import { AdmhabilidadesComponent } from './components/administracion/admhabilidades/admhabilidades.component';
 import { AdmhabilidadesblandasComponent } from './components/administracion/admhabilidadesblandas/admhabilidadesblandas.component';
 import { AdmproyectosComponent } from './components/administracion/admproyectos/admproyectos.component';
+import { PortfolioService } from './servicio/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -48,11 +51,14 @@ import { AdmproyectosComponent } from './components/administracion/admproyectos/
     AdmexperienciaComponent,
     AdmhabilidadesComponent,
     AdmhabilidadesblandasComponent,
-    AdmproyectosComponent
+    AdmproyectosComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
