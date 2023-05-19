@@ -11,7 +11,7 @@
             <li class="list-group-item"><a href="http://www.facebook.com/jcmvmarquez/" target="_blank"><i class="fa-brands fa-facebook fa-2x text-white"></i></a></li>
             <li class="list-group-item"> 
               <!-- Boton envia al login -->
-             <a href="/FRONTEND/assets.html" ><i class="fa-solid fa-right-to-bracket fa-2x text-white"></i> </a>
+             <a routerLink="/login" ><i class="fa-solid fa-right-to-bracket fa-2x text-white"></i> </a>
             </li>
           </ul>
         </div>
@@ -25,15 +25,23 @@
         </div>
         <div class="col-8 formulario-login">
           <div class="modal-body">
-              <form>
+              <form [formGroup]="form">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                   <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.</div>
+                </div>
+                <div *ngIf="Email?.errors && Email?.touched">
+                  <p *ngIf="Email?.hasError('required')" class="text-danger">
+                    El email es requerido
+                  </p>
+                  <p *ngIf="Email?.hasError('email')" class="text-danger">
+                    El formato de Email debe ser válido
+                  </p>
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1">
                 </div>
               </form>
             </div>
